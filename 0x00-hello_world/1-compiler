@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S $CFILE > ${CFILE}".0"
+gcc -c $CFILE > ${CFILE}".0"
