@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main Begin code (success)
- * texts in puts
- * Return : the value 0 (succes)
+ * main- Entry point
+ * 
+ * Return : the value 0 (success)
  */
 int main(void)
 {
