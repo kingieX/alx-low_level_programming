@@ -8,13 +8,6 @@
  */
 int main(void)
 {
-	char base;
-
-	base = 0;
-	while (base < 10)
-	{
-		putchar(base);
-		base++;
-	}
+	printf("0123456789");
 	return (0);
 }
