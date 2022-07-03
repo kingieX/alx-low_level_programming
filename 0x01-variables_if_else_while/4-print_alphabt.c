@@ -10,7 +10,7 @@ int main(void)
 	char low;
 
 	low = 'a';
-	while (l <= 'z')
+	while (low <= 'z')
 	{
 		if ((low != 'e') && (low != 'q'))
 		{
