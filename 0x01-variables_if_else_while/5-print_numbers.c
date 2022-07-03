@@ -10,6 +10,7 @@ int main(void)
 {
 	char base;
 
+	base = 0;
 	while (base < 10)
 	{
 		putchar(base);
