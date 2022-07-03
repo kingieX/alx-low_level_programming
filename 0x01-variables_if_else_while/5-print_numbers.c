@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.g>
 #include <stdlib.h>
 
 /**
@@ -12,9 +12,9 @@ int main(void)
 
 	while (base < 10)
 	{
-		purchar(base);
+		putchar(base);
 		base++;
 	}
-	purchar("\n");
+	putchar("\n");
 	return (0);
 }
