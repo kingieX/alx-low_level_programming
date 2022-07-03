@@ -15,6 +15,6 @@ int main(void)
 		putchar(base);
 		base++;
 	}
-	putchar("\n");
+	printf('\n');
 	return (0);
 }
