@@ -7,6 +7,13 @@
  */
 int main(void)
 {
-	printf("0123456789\n");
+	char n;
+
+	n = '0';
+	while (n < 10)
+	{
+		putchar(n);
+		n++;
+	}
 	return (0);
 }
