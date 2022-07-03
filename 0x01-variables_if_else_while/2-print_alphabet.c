@@ -10,9 +10,12 @@ int main(void)
 {
 	char low;
 
-	for (low = 'a'; low <= 'z'; low++)
+	low = 'a';
+	while (low <= 'z')
+	{
 		putchar(low);
-		printf("/n");
-
+		low++;
+	}
+	putchar('\n');
 	return (0);
 }
