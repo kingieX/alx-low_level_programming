@@ -5,15 +5,15 @@
  *
  * Return: Always 0 (success)
  */
-int main (void)
+int main(void)
 {
 	char i;
 
 	i = 'a';
-	while (i < 'z')
+	while (i <= 'z')
 		{
 	putchar(i);
 	i--;
 		}
 	return (0);
-}
+i}
