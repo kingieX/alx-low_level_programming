@@ -6,7 +6,7 @@
  */
 void print_alphabet_x10(void)
 {
-	count = 1;
+	int count = 1;
 	char letter;
 
 	while (count++ <= 10)
@@ -17,5 +17,4 @@ void print_alphabet_x10(void)
 		}
 		_putchar('\n');
 	}
-	return (0);
 }
