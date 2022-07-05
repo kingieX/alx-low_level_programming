@@ -1,12 +1,12 @@
 #include "main.h"
 /**
  * _islower - Entry point
- * Description - checks for lowercase character
+ * Description - checks for lowercase character in int c
+ * peremeter - peremeter 'c'
  * Return: 1 or 0
  */
 int _islower(int c)
 {
-	char c;
 
 	if (c >= 'a' && c <= 'z')
 		return (1);
