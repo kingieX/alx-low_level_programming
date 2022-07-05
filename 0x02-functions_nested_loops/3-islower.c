@@ -2,7 +2,7 @@
 /**
  * _islower - Entry point
  * Description - checks for lowercase character in int c
- * peremeter - peremeter 'c'
+ * @c: peremeter 'c'
  * Return: 1 or 0
  */
 int _islower(int c)
