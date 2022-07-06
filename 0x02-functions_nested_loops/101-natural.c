@@ -2,6 +2,7 @@
 /**
  * main - Prints the sum
  *
+ * Return: Always 0
  */
 int main(void)
 {
