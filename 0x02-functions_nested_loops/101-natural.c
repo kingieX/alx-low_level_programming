@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints the sum
+ * main - Prints the sum
  *
  */
 int main(void)
