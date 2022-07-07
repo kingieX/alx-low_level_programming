@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - print integer is positive or negative
- * Retuen: 0
+ * main - Print integer is positive or negative
+ * Return: 0
  */
 int main(void)
 {
