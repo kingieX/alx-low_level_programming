@@ -2,6 +2,7 @@
 /**
  * *cap_string - function that capatalizes all words of a string.
  * @str: parameter
+ * Return: str
  */
 char *cap_string(char *str)
 {
