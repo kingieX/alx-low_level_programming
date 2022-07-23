@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -14,7 +13,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 3)
 	{
-		_puts("Error");
+		printf("%S\n", "Error");
 		return (1);
 	}
 	a = atoi(argv[1]);
