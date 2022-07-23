@@ -9,11 +9,11 @@
  */
 int main(int argc, char *argv[])
 {
-	int result. a, b;
+	int result, a, b;
 
 	if (argc != 3)
 	{
-		printf("%S\n", "Error");
+		printf("%s\n", "Error");
 		return (1);
 	}
 	a = atoi(argv[1]);
