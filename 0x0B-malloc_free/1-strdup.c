@@ -8,20 +8,27 @@
  */
 char *_strdup(char *str)
 {
-	unsigned int i, j;
+	unsigned int i, j = 0;
 	char *copy;
 
 	if (str == NULL)
 		return (NULL);
+
 	for (i = 0; str[i]; i++)
-	copy = malloc(i * sizeof(char));
+		j++;
+
+	copy = malloc((j + 1) * sizeof(char));
+
 	if (copy == NULL)
 	{
 		return (NULL);
 	}
-	for (j = 0; j < i; j++)
+
+	for (i = 0; str[i]; i++)
 	{
-		copy[j] = str[j];
+		copy[i] = str[i];
 	}
+	copy[j] = '\0'
+
 	return (copy);
 }
