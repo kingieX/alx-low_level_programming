@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * *_str_concat - function that cincatenates two strings.
+ * str_concat - function that cincatenates two strings.
  * @s1: first string
  * @s2: second string
  * Return: result or NULL on failure.
