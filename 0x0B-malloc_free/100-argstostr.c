@@ -31,7 +31,7 @@ char *argstostr(int ac, char **av)
 			k++;
 		}
 		s[k] = '\n';
-		k++
+		k++;
 	}
 	s[k] = '\0';
 	return (s);
