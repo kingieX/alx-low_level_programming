@@ -7,11 +7,12 @@
  */
 size_t list_len(const list_t *h)
 {
-	const list_t *tmp;
-	unsigned int i;
+	size_t i = 0;
 
-	tmp = h;
-	for (i = 0; tmp; i++)
-		tmp = tmp->next;
+	while (h)
+	{
+		i++;
+		h = h->next;
+	}
 	return (i);
 }
