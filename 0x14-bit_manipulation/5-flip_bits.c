@@ -1,4 +1,4 @@
-#include "mai.h"
+#include "main.h"
 /**
  * flip_bits - function that number of different bits between two numbers
  * @n: first number
